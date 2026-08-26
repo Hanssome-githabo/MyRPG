@@ -90,6 +90,7 @@ namespace MyRPG
             Console.WriteLine($"技能：{GetSkillDescription()}");
             // 2.打印背包里的所有装备
             Console.WriteLine("背包内容:");
+            Console.WriteLine("========我是分割线========:");
 
             if (Bag == null)
             {
